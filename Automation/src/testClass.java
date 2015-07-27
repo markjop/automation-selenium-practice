@@ -34,6 +34,8 @@ public class testClass {
 		//TC - SP001
 		driver.get("http://www.google.com.ph");
 		driver.findElement(By.id("gb_70")).click();
+//		Assert.
+//		Assert.assertEquals("Wikipedia", driver.getTitle());
 		
 		//TC - SP002
 		driver.findElement(By.id("Email")).sendKeys("testEmail");
