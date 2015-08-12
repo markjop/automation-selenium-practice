@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class testSuite {
@@ -44,7 +46,6 @@ public class testSuite {
 	public void openBrowser() {
 		driver = new InternetExplorerDriver(capabilities);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 	@AfterMethod
@@ -117,9 +118,12 @@ public class testSuite {
 		int randomInt = (int) (Math.random()*1000);
 		driver.findElement(By.id("Email")).sendKeys("testIncorrectUser"+ randomInt);
 		driver.findElement(By.id("next")).click();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+//
 		//TODO: Make the assertion generic (not specific to Google)
-		Assert.assertEquals(driver.findElement(By.xpath("//span[@class='error-msg']")).getText(),
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='error-msg']")));
+		Assert.assertEquals(element.getText(),
+//		Assert.assertEquals(driver.findElement(By.xpath("//span[@class='error-msg']")).getText(),
 //		Assert.assertEquals(driver.findElement(By.id("errormsg_0_Email")).getText(),
 				"Sorry, Google doesn't recognize that email.");
 	}
@@ -139,8 +143,11 @@ public class testSuite {
 				driver.findElement(By.id("PersistentCookie")).click();
 				}
 		driver.findElement(By.id("signIn")).click();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
 		//TODO: Make the assertion generic (not specific to Google)
+//		WebDriverWait wait = new WebDriverWait(driver, 40);
+//		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='error-msg']")));
+//		Assert.assertEquals(element.getText(),
 //		Assert.assertEquals(driver.findElement(By.xpath("//span[@class='error-msg']")).getText(),
 		Assert.assertEquals(driver.findElement(By.id("errormsg_0_Passwd")).getText(),
 				"The email and password you entered don't match.");

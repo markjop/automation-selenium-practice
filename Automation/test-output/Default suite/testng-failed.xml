@@ -5,11 +5,10 @@
     <classes>
       <class name="com.test.Automation_247.testSuite">
         <methods>
+          <include name="tearDown"/>
+          <include name="testCaseSP002"/>
           <include name="openBrowser"/>
           <include name="setUp"/>
-          <include name="testCaseSP004"/>
-          <include name="testCaseSP005"/>
-          <include name="testCaseSP006"/>
           <include name="closeBrowserWindow"/>
         </methods>
       </class> <!-- com.test.Automation_247.testSuite -->

@@ -2,88 +2,88 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="95604" started-at="2015-08-01T21:22:48Z" finished-at="2015-08-01T21:24:24Z">
+  <suite name="Default suite" duration-ms="149115" started-at="2015-08-03T03:18:36Z" finished-at="2015-08-03T03:21:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="95604" started-at="2015-08-01T21:22:48Z" finished-at="2015-08-01T21:24:24Z">
+    <test name="Default test" duration-ms="149115" started-at="2015-08-03T03:18:36Z" finished-at="2015-08-03T03:21:05Z">
       <class name="com.test.Automation_247.testSuite">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="setUp" is-config="true" duration-ms="34" started-at="2015-08-02T05:22:48Z" finished-at="2015-08-02T05:22:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="setUp" is-config="true" duration-ms="16" started-at="2015-08-03T11:18:36Z" finished-at="2015-08-03T11:18:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="openBrowser" is-config="true" duration-ms="5871" started-at="2015-08-02T05:22:48Z" finished-at="2015-08-02T05:22:54Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="openBrowser" is-config="true" duration-ms="4612" started-at="2015-08-03T11:18:36Z" finished-at="2015-08-03T11:18:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testCaseSP001()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="testCaseSP001" duration-ms="1868" started-at="2015-08-02T05:22:54Z" finished-at="2015-08-02T05:22:56Z">
+        <test-method status="PASS" signature="testCaseSP001()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="testCaseSP001" duration-ms="7982" started-at="2015-08-03T11:18:40Z" finished-at="2015-08-03T11:18:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseSP001 -->
-        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="closeBrowserWindow" is-config="true" duration-ms="26" started-at="2015-08-02T05:22:56Z" finished-at="2015-08-02T05:22:56Z">
+        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="closeBrowserWindow" is-config="true" duration-ms="21" started-at="2015-08-03T11:18:48Z" finished-at="2015-08-03T11:18:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserWindow -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="openBrowser" is-config="true" duration-ms="4223" started-at="2015-08-02T05:22:56Z" finished-at="2015-08-02T05:23:00Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="openBrowser" is-config="true" duration-ms="3724" started-at="2015-08-03T11:18:48Z" finished-at="2015-08-03T11:18:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testCaseSP002()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="testCaseSP002" duration-ms="4093" started-at="2015-08-02T05:23:00Z" finished-at="2015-08-02T05:23:04Z">
+        <test-method status="PASS" signature="testCaseSP002()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="testCaseSP002" duration-ms="14571" started-at="2015-08-03T11:18:52Z" finished-at="2015-08-03T11:19:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseSP002 -->
-        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="closeBrowserWindow" is-config="true" duration-ms="90" started-at="2015-08-02T05:23:04Z" finished-at="2015-08-02T05:23:05Z">
+        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="closeBrowserWindow" is-config="true" duration-ms="62" started-at="2015-08-03T11:19:06Z" finished-at="2015-08-03T11:19:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserWindow -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="openBrowser" is-config="true" duration-ms="4176" started-at="2015-08-02T05:23:05Z" finished-at="2015-08-02T05:23:09Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="openBrowser" is-config="true" duration-ms="3752" started-at="2015-08-03T11:19:07Z" finished-at="2015-08-03T11:19:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testCaseSP003()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="testCaseSP003" duration-ms="28495" started-at="2015-08-02T05:23:09Z" finished-at="2015-08-02T05:23:37Z">
+        <test-method status="PASS" signature="testCaseSP003()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="testCaseSP003" duration-ms="17596" started-at="2015-08-03T11:19:10Z" finished-at="2015-08-03T11:19:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseSP003 -->
-        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="closeBrowserWindow" is-config="true" duration-ms="73" started-at="2015-08-02T05:23:37Z" finished-at="2015-08-02T05:23:37Z">
+        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="closeBrowserWindow" is-config="true" duration-ms="47" started-at="2015-08-03T11:19:28Z" finished-at="2015-08-03T11:19:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserWindow -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="openBrowser" is-config="true" duration-ms="3447" started-at="2015-08-02T05:23:37Z" finished-at="2015-08-02T05:23:41Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="openBrowser" is-config="true" duration-ms="3579" started-at="2015-08-03T11:19:28Z" finished-at="2015-08-03T11:19:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testCaseSP004()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="testCaseSP004" duration-ms="16764" started-at="2015-08-02T05:23:41Z" finished-at="2015-08-02T05:23:58Z">
+        <test-method status="PASS" signature="testCaseSP004()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="testCaseSP004" duration-ms="36520" started-at="2015-08-03T11:19:32Z" finished-at="2015-08-03T11:20:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseSP004 -->
-        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="closeBrowserWindow" is-config="true" duration-ms="72" started-at="2015-08-02T05:23:58Z" finished-at="2015-08-02T05:23:58Z">
+        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="closeBrowserWindow" is-config="true" duration-ms="72" started-at="2015-08-03T11:20:08Z" finished-at="2015-08-03T11:20:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserWindow -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="openBrowser" is-config="true" duration-ms="3343" started-at="2015-08-02T05:23:58Z" finished-at="2015-08-02T05:24:01Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="openBrowser" is-config="true" duration-ms="3432" started-at="2015-08-03T11:20:08Z" finished-at="2015-08-03T11:20:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testCaseSP005()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="testCaseSP005" duration-ms="5415" started-at="2015-08-02T05:24:01Z" finished-at="2015-08-02T05:24:06Z">
+        <test-method status="PASS" signature="testCaseSP005()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="testCaseSP005" duration-ms="18327" started-at="2015-08-03T11:20:12Z" finished-at="2015-08-03T11:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseSP005 -->
-        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="closeBrowserWindow" is-config="true" duration-ms="60" started-at="2015-08-02T05:24:06Z" finished-at="2015-08-02T05:24:06Z">
+        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="closeBrowserWindow" is-config="true" duration-ms="47" started-at="2015-08-03T11:20:30Z" finished-at="2015-08-03T11:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserWindow -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="openBrowser" is-config="true" duration-ms="5513" started-at="2015-08-02T05:24:06Z" finished-at="2015-08-02T05:24:12Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="openBrowser" is-config="true" duration-ms="3682" started-at="2015-08-03T11:20:30Z" finished-at="2015-08-03T11:20:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testCaseSP006()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="testCaseSP006" duration-ms="10972" started-at="2015-08-02T05:24:12Z" finished-at="2015-08-02T05:24:23Z">
+        <test-method status="PASS" signature="testCaseSP006()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="testCaseSP006" duration-ms="30011" started-at="2015-08-03T11:20:34Z" finished-at="2015-08-03T11:21:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseSP006 -->
-        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="closeBrowserWindow" is-config="true" duration-ms="19" started-at="2015-08-02T05:24:23Z" finished-at="2015-08-02T05:24:23Z">
+        <test-method status="PASS" signature="closeBrowserWindow()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="closeBrowserWindow" is-config="true" duration-ms="46" started-at="2015-08-03T11:21:04Z" finished-at="2015-08-03T11:21:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserWindow -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.Automation_247.testSuite@d7b1517]" name="tearDown" is-config="true" duration-ms="1010" started-at="2015-08-02T05:24:23Z" finished-at="2015-08-02T05:24:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.Automation_247.testSuite@47f37ef1]" name="tearDown" is-config="true" duration-ms="1001" started-at="2015-08-03T11:21:04Z" finished-at="2015-08-03T11:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

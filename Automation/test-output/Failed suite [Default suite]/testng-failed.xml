@@ -8,7 +8,7 @@
           <include name="tearDown"/>
           <include name="openBrowser"/>
           <include name="setUp"/>
-          <include name="testCaseSP005"/>
+          <include name="testCaseSP006"/>
           <include name="closeBrowserWindow"/>
         </methods>
       </class> <!-- com.test.Automation_247.testSuite -->
