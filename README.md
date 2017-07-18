@@ -3,4 +3,4 @@ automation-selenium-practice
 
 Selenium Practice
 
-test
+This is my selenium practice with Java
